@@ -55,20 +55,9 @@
 
 <script>
 export default {
-  name: 'Post Page'
+  name: 'PostPage'
 }
 </script>
-<page-query>
-query($id: ID!) {
-  blog: strapiBlog(id: $id) {
-    title
-    content
-    cover {
-      url
-    }
-  }
-}
-</page-query>
 <style>
 
 </style>
