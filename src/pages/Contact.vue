@@ -83,6 +83,12 @@ export default {
           ...this.form
         })
         alert('发送成功')
+        this.form = {
+          name: '',
+          email: '',
+          phone: '',
+          message: ''
+        }
       } catch(e) {
         console.log('发送失败');
       }

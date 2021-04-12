@@ -22,7 +22,7 @@ module.exports = {
       options: {
         apiURL: process.env.GRIDSOME_API_URL, // 连接地址
         queryLimit: 1000, // Defaults to 100
-        contentTypes: ['blog'], // 查询的content类型
+        contentTypes: ['blog', 'tag'], // 查询的content类型
         singleTypes: ['general'],
         plural: true, // pluralizes names of Content Types in API
         // Possibility to login with a Strapi user, when content types are not publicly available (optional).
